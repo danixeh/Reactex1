@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  }
+h2 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  paddin
+}
+
+.Q-Style {
+background-color: aliceblue;
+padding: 20px;
+width: min(400px,100%)
+position: relative; 
+
+}
+.card-btn{
+  display: block;
+  font-size: 22px;
+  width: 40px;
+   aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 100%;
+  transform: translate(-100%);
+  cursor: pointer;
+  box box-shadow: 1px 1px 5px 0 gray;
+  }
+
+  .card-btn:active {
+
+   box-shadow: 0 0 0 0 #000a;
+   transition: box-shadow 200ms ease; 
+  }
