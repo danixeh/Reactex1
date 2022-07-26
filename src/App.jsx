@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { QuoteBox } from './Components/QuoteBox'
+import { BodyQuotebox } from './Components/BodyQuotebox'
+import { QuoteBox } from './Components/FooterQuoteBox'
+import { HeaderQuoteBox } from './Components/HeaderQuoteBox'
 import users from './json/User.json'
 
 
@@ -20,7 +22,7 @@ const arrayColors = ['#6FC2D', '#6FC2D3',
 ]
 
 console.log(arrayColors);
-
+// 
 function App() {
 
   
@@ -48,13 +50,17 @@ function App() {
 
   return (
     <div style={appStyle} className="App"> 
-    <QuoteBox
+      <HeaderQuoteBox />
+      <BodyQuotebox/>
+      <footerQuoteBox />
+      
+    <QuoteBox/>
     userRandom={userRandom}    
     colorRandom={colorRandom}
     clickButton={clickButton}
  
-    />
-    </div>
+  
+   </div>
   )
 }
 

@@ -14,16 +14,15 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  paddin
-}
+  }
 
 .Q-Style {
 background-color: aliceblue;
 padding: 20px;
 width: min(400px,100%)
-position: relative; 
-
+position relative; 
 }
+
 .card-btn{
   display: block;
   font-size: 22px;
@@ -36,7 +35,7 @@ position: relative;
   left: 100%;
   transform: translate(-100%);
   cursor: pointer;
-  box box-shadow: 1px 1px 5px 0 gray;
+  box-shadow: 1px 1px 5px 0 gray;
   }
 
   .card-btn:active {
